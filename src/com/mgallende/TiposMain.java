@@ -15,6 +15,7 @@ public class TiposMain {
          */
 
         System.out.println("Ejercicio del tema 1 del Curso Básico de Java de Open Bootcamp\nen el que mostramos tipos de datos conocidos hasta el momento");
+
         // Tipos Numéricos Enteros
         byte number1 = 125; // Ocupa un byte de memoria
         System.out.println("byte = " + number1);
@@ -26,12 +27,10 @@ public class TiposMain {
         System.out.println("long = " + number4);
 
         // Numéricos decimales
-
         float number5 = 1.5f; // Ocupa cuatro bytes de memoria
         System.out.println("float = " + number5);
         double number6 = 10.10; // Ocupa ocho bytes de memoria
         System.out.println("double = " + number6);
-
 
         // Boolean, puede almacenar valores booleanos,: true or false
         boolean variable1 = true;
@@ -39,15 +38,10 @@ public class TiposMain {
         System.out.println("La variable1 es " + variable1 + " y la variable2 es "+ variable2);
 
         // Tipos de texto
-
         char caracter1 = 'A';
         System.out.println("char = " + caracter1);
         String cadena1 = "Esto es una cadena de texto";
         System.out.println("Cadena = " + cadena1);
-
-
-
-
 
     }
 }
